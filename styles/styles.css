@@ -36,6 +36,11 @@ header i {
     color: var(--light-green);
 }
 
+#cantidad_carrito {
+    color: var(--light-green);
+    font-size: 20px;
+}
+
 .container_presentation {
     width: 100%;
     height: 250px;
@@ -83,20 +88,26 @@ body {
     position: relative;
 }
 
-.add-to-chart-btn i {
+.img-producto {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.add-to-chart-btn {
+    background: none;
+    border: none;
     font-size: 2.5rem;
     position: absolute;
     right: 1rem;
     bottom: 1rem;
     color: var(--light-green);
     transition: .15s;
-    transform: scale(1);
 }
 
-.add-to-chart-btn i:hover {
+.add-to-chart-btn:hover {
     color: var(--dark-green);
-    transition: .15s;
-    transform: scale(1.1);
+    transition: .25s;
 }
 
 
